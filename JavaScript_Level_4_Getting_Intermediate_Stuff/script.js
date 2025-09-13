@@ -48,19 +48,3 @@ var a = ()=>{}
 var g = (ab)=>{
     g(12)
 }
-
-//single parameter me ham uska fat bi hata sakte ha
-//implicit return
-var abcd = ()=>34.5 //yaha par ham kuch bi likh sakte ha true,jiendra,[],number
-var ans = abcd()
-
-
-
-
-//return
-//return ka matlab hota ha jaha par bi return lagega uske aage jo bi likhoge wo jayega jaha par function call hua tha, return function ke andar lagta ha
-//fat arrow return
-var a = ()=>{
-    return 12
-}
-var b = a()
